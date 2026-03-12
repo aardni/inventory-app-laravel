@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('header', 'Dashboard Tracker')
-
-@section('content')
+<x-app-layout>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <!-- Categories Card -->
         <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 flex flex-col items-center justify-center hover:shadow-md transition-shadow">
@@ -24,4 +20,5 @@
             <a href="{{ route('products.index') }}" class="mt-4 text-emerald-600 hover:text-emerald-800 font-medium">View Products &rarr;</a>
         </div>
     </div>
-@endsection
+
+</x-app-layout>

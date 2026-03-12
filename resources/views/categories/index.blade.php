@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('header', 'Categories')
-
-@section('content')
+<x-app-layout>
 <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
     <!-- Header Actions -->
     <div class="p-6 border-b border-gray-100 flex justify-between items-center">
@@ -59,4 +55,4 @@
     </div>
     @endif
 </div>
-@endsection
+</x-app-layout>

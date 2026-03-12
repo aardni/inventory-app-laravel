@@ -1,8 +1,4 @@
-@extends('layouts.app')
-
-@section('header', 'Add Product')
-
-@section('content')
+<x-app-layout>
 <div class="max-w-2xl mx-auto bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden">
     <div class="p-6 border-b border-gray-100">
         <h3 class="text-lg font-semibold text-gray-800">New Product Details</h3>
@@ -57,4 +53,5 @@
         </form>
     </div>
 </div>
-@endsection
+
+</x-app-layout>
